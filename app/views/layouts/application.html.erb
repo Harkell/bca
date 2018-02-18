@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bosham Capital Advisors</title>
+    <%= csrf_meta_tags %>
+
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+            <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+
+    <nav class="mobile-navigation">
+        <a href="/services" class="mobile-navigation-link ">Services</a>
+        <a href="/products" class="mobile-navigation-link ">Products</a>
+        <a href="/community" class="mobile-navigation-link ">Community</a>
+        <a href="/team" class="mobile-navigation-link ">Team</a>
+        <a href="/blog" class="mobile-navigation-link ">Blog</a>
+        <a href="/contact" class="mobile-navigation-link ">Hire Us</a>
+    </nav>
+    <!-- .mobile-navigation -->
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700&subset=latin,devanagari,latin-ext" />
+    <link rel="stylesheet" href="/assets/style/main.css" />
+    <link rel="shortcut icon" href="/assets/images/favicon.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://bosham.herokuapp.com/assets/bca_logo_blue3-76ef025974e448e0445cf09380267b984ac0a6198990601dbd370355688f6551.png" />
+    <meta property="og:site_name" content="Blimp" />
+    <meta property="fb:admins" content="502082211" />
+    <meta property="fb:admins" content="501641940" />
+    <meta property="fb:app_id" content="264811720215987" />
+    <meta property="og:description" content="We are the dev team that says yes to your most ambitious ideas" />
+    <meta name="twitter:site" content="@Blimp">
+    <meta name="description" content="We are the dev team that says yes to your most ambitious ideas">
+
+
+
+    <%= yield %>
+
+        <footer class="footer">
+            <div class="footer-content section-container spacing-small">
+                <div class="footer-address">
+                    <p class="footer-content-title">Address</p>
+                    <p class="footer-content-text">
+                        25 Bedford Square
+                        <br> Fitzrovia
+                        <br> London, WC1B 3HH
+                    </p>
+                </div>
+                <!-- .footer-address -->
+                <div class="footer-contact">
+                    <p class="footer-content-title">Contact Us</p>
+                    <p class="footer-content-text">
+                        info@boshamcapitaladvisors.com
+                        <br> 07889 056278
+                    </p>
+                </div>
+                <!-- .footer-contact -->
+                <div class="footer-social">
+                    <a href="http://www.harkell.com/" class="footer-social-link facebook icon">
+                        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <svg width="12px" height="24px" viewBox="0 0 12 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="icon-fill" transform="translate(-1172.000000, -3988.000000)" fill="#71767D">
+                                        <g transform="translate(160.000000, 3986.000000)">
+                                            <g transform="translate(1012.000000, 2.000000)">
+                                                <path d="M2.96923636,23.9319273 L2.96923636,12.7023273 L6.21724894e-15,12.7023273 L6.21724894e-15,8.65898182 L2.96923636,8.65898182 L2.96923636,5.2056 C2.96923636,2.49185455 4.7232,0 8.76458182,0 C10.4009455,0 11.6112,0.156872727 11.6112,0.156872727 L11.5156364,3.93250909 C11.5156364,3.93250909 10.2816,3.92050909 8.93498182,3.92050909 C7.47752727,3.92050909 7.24407273,4.59207273 7.24407273,5.70698182 C7.24407273,6.58821818 7.24407273,3.82865455 7.24407273,8.6592 L11.6314909,8.6592 L11.4405818,12.7025455 L7.24407273,12.7025455 L7.24407273,23.9321455 L2.96923636,23.9321455 L2.96923636,23.9319273 Z" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                    </a>
+                    <a href="http://www.harkell.com/" class="footer-social-link twitter icon">
+                        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <svg width="30px" height="24px" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="icon-fill" transform="translate(-1208.000000, -3988.000000)" fill="#71767D">
+                                        <g transform="translate(160.000000, 3986.000000)">
+                                            <g transform="translate(1012.000000, 2.000000)">
+                                                <path d="M61.9781595,3.78419632 C63.2254233,3.03651534 64.1835092,1.85256442 64.6345031,0.441717791 C63.4670429,1.13418405 62.174135,1.6368589 60.7978896,1.90777914 C59.6959509,0.733546012 58.1257914,0 56.3880736,0 C53.0516319,0 50.3464049,2.70493252 50.3464049,6.04137423 C50.3464049,6.51489571 50.3998528,6.97604908 50.502773,7.41820859 C45.4816196,7.16628221 41.0299877,4.7609816 38.0503067,1.10576687 C37.5302577,1.99803681 37.2322454,3.03577914 37.2322454,4.1430184 C37.2322454,6.23911656 38.2988466,8.08829448 39.9199509,9.17168098 C38.9294724,9.14031902 37.9980368,8.86851534 37.1835092,8.41604908 C37.1829202,8.44122699 37.1829202,8.46655215 37.1829202,8.49202454 C37.1829202,11.4191411 39.2654724,13.8609571 42.0293006,14.4160491 C41.5223558,14.5541595 40.9886135,14.6279264 40.4374969,14.6279264 C40.0480491,14.6279264 39.6696442,14.5899387 39.3006626,14.5195583 C40.0696933,16.9197055 42.3006626,18.6665521 44.9444908,18.7151411 C42.8768098,20.3356564 40.2718528,21.3013988 37.4411779,21.3013988 C36.9535215,21.3013988 36.472638,21.2728344 36,21.2168834 C38.6737178,22.9311902 41.8495215,23.9315337 45.2612025,23.9315337 C56.3737914,23.9315337 62.4506503,14.725546 62.4506503,6.74179141 C62.4506503,6.47985276 62.4447607,6.2193865 62.4331288,5.96009816 C63.6138405,5.10846626 64.6380368,4.0443681 65.448,2.83288344 C64.3646135,3.31347239 63.2000982,3.63813497 61.9781595,3.78419632 Z" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                    </a>
+                    <a href="http://www.harkell.com/" class="footer-social-link github icon">
+                        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                    </a>
+                </div>
+                <!-- .footer-social -->
+            </div>
+            <!-- .footer-content -->
+        </footer>
+        <!-- .footer -->
+</body>
+
+</html>
